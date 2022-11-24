@@ -10,7 +10,7 @@ git clone https://github.com/BTCgreen-Network/littlelambocoin-nft-minting-tool.g
 
 - Install littlelambocoinnft and the necessary littlelambocoin-blockchain branch (make sure to include the '.' at the end):
 ```bash
-pip install --extra-index https://pypi.littlelambocoin.net/simple/ --editable .
+pip install --extra-index https://pypi.chia.net/simple/ --editable .
 ```
 
 - Start testnet wallet and node: `littlelambocoin start wallet`, and `littlelambocoin start node`
@@ -76,7 +76,7 @@ littlelambocoinnft submit-spend-bundles -m 1000000 -o 1000 output.pkl
 Tests are located in the tests directory. To run them, make sure to install the tool with dev dependencies:
 
 ```bash
-pip install --extra-index https://pypi.littlelambocoin.net/simple/ --editable .[dev]
+pip install --extra-index https://pypi.chia.net/simple/ --editable .[dev]
 ```
 
 To run the tests use:
